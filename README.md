@@ -4,3 +4,7 @@ Extremely janky wayland version of https://mouseless.click. I'll be using and ma
 
 Currently only supports a single 1920x1080p display, a qwerty keyboard and a compositor with support for the `zwlr_virtual_pointer_v1` protocol extension.
 Check out [this link](https://wayland.app/protocols/wlr-virtual-pointer-unstable-v1) to see if your compositor of choice is supported.
+
+
+https://github.com/user-attachments/assets/ee13c999-8dbf-40ba-a86e-7c8c2b36dc1b
+
