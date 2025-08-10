@@ -12,6 +12,8 @@
             rustfmt
             pkg-config
             udev
+            wayland-protocols
+            libxkbcommon
           ];
         };
       });
