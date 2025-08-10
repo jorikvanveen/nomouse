@@ -16,5 +16,13 @@
             libxkbcommon
           ];
         };
+        packages.default = pkgs.rustPlatform.buildRustPackage {
+          pname = "nomouse";
+          version = "0.0.1";
+          src = ./.;
+          cargoLock = { lockFile = ./Cargo.lock; };
+          nativeBuildInputs = [ pkgs.pkg-config ];
+          buildInputs = [ pkgs.libxkbcommon ];
+        };
       });
 }
